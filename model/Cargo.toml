@@ -1,0 +1,17 @@
+[package]
+name = "hodl-model"
+version = "1.0.0"
+publish = false
+edition = "2021"
+
+[lib]
+name = "hodl_model"
+
+[dependencies]
+uint = { workspace = true }
+anyhow = { workspace = true }
+async-trait = { workspace = true }
+
+near-sdk = { workspace = true }
+
+nitka = { workspace = true }

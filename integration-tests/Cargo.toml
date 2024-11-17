@@ -1,0 +1,27 @@
+[package]
+name = "integration-tests"
+version = "1.0.0"
+publish = false
+edition = "2021"
+
+[lib]
+name = "integration_tests"
+
+[dependencies]
+base58 = "0.2.0"
+
+rand = { workspace = true }
+tokio = { workspace = true }
+anyhow = { workspace = true }
+async-trait = { workspace = true }
+ed25519-dalek = { workspace = true }
+
+near-sdk = { workspace = true }
+near-workspaces = { workspace = true }
+
+hodl-model = { workspace = true }
+nitka = { workspace = true }
+
+sweat-model = { workspace = true }
+
+multisig-model = { workspace = true }
